@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости ПО ШАХМАТАМ</title>
+    <meta name="description" content="Новости ПО ШАХМАТАМ , интересные статьи, последние события о CheckMate">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="Left">
+            <div class="logo">
+                <img src="img/logo.jpg">
+                <h1>CheckMate</h1>
+            </div>
+            <div class="nav-toggle"><span></span></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Гайды</a></li>
+                    <li><a href="News.html">Новости</a></li>
+                    <li><a href="employees.html">Сотрудники</a></li>
+                    <li><a href="#">Магазин</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LogReg">
+            <button class="LoginButton">Login</button>
+            <button class="RegisterButton">Register</button>
+        </div>
+    </header>
+    <main>
+        <div class="slider slider-news">
+            <div class="slider-wrap">
+                <h2>Новости</h2>
+            </div>
+        </div>
+        <div class="news-columns">
+            <div class="news-column">
+                <a href="OpenCheckMate.html">
+                    <img src="img/загружено.jpg">
+                    <p>Открытие CheckMate!</p>
+                </a>
+            </div>
+            <div class="news-column">
+                <a href="#">
+                    <img src="img/pecus.png">
+                    <p>Обучение</p>
+                </a>
+            </div>
+            <div class="news-column">
+                <a href="#">
+                    <img src="img/sad.png">
+                    <p>Локальные турниры</p>
+                </a>
+            </div>
+            <div class="news-column">
+                <a href="#">
+                    <img src="img/slider.jpg">
+                    <p>Поступление товара</p>
+                </a>
+            </div>
+            <div class="news-column">
+                <a href="#">
+                    <img src="img/lupa.png">
+                    <p>Грифики</p>
+                </a>
+            </div>
+            <div class="news-column">
+                <a href="discount.html">
+                    <img src="img/12.jpg">
+                    <p>Акция в честь открытия</p>
+                </a>
+            </div>
+        </div>
+            
+        </div>
+
+
+
+        <div class="NewsSender">
+            <div class="NewsSender-wrap">
+                <h3>Подпишись на рассылку и будь в курсе новостей</h3>
+                <div class="wrap-NewsSender">
+                    <input type="text" placeholder="student-a209@gmail.com">
+                    <button>Подписаться</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Гайды</a></li>
+                <li><img class="logo-footer" src="img/logo.jpg"></li>
+                <li><a href="News.html">Новости</a></li>
+                <li><a href="#">Магазин</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="icons">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+        </div>
+    </footer>
+    <script>
+        $('.nav-toggle').on('click', function(){
+          $('#menu').toggleClass('active');
+        });
+    </script>
+</body>
+</html>

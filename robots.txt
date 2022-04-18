@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /admin
+
+User-agent: *
+Disallow: /img/admin
+
+User-agent: *
+Disallow: /support
+
+User-agent: *
+Disallow: /index$
+
+User-agent: *
+Disallow: *&
+
+
+User-agent: *
+Allow: error.html
+
+User-agent: *
+Host: https://github.com

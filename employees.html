@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <div class="Left">
+            <div class="logo">
+                <img src="img/logo.jpg">
+                <h1>CheckMate</h1>
+            </div>
+            <div class="nav-toggle"><span></span></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Гайды</a></li>
+                    <li><a href="News.html">Новости</a></li>
+                    <li><a href="employees.html">Сотрудники</a></li>
+                    <li><a href="#">Магазин</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LogReg">
+            <button class="LoginButton">Login</button>
+            <button class="RegisterButton">Register</button>
+        </div>
+    </header>
+    <main>
+        <div class="slider slider-news">
+            <div class="slider-wrap">
+                <h2>Наши сотрудники</h2>
+            </div>
+        </div>
+        <div class="Story">
+            <img src="img/29098.jpg" alt="">
+            <div class="text-wrap">
+                <h3>Наш директор</h3>
+                <h4>Сидров Евгений анатольевич</h4>
+                <p>Товарищи! постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание направлений прогрессивного развития. Задача организации, в особенности же консультация с широким активом в значительной степени обуславливает создание модели развития.</p>
+            </div>
+        </div>
+        <div class="TypesOfCheckMate">
+            <div class="text-wrap wrap1">
+                <h3>Наш секретарь</h3>
+                <h4>Бабурина Елена Анатольевна</h4>
+                <p>Товарищи! постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание направлений прогрессивного развития. Задача организации, в особенности же консультация с широким активом в значительной степени обуславливает создание модели развития.</p>
+            </div>
+            <img src="img/1.jpeg" alt="">
+        </div>
+        <div class="employees-wrap">
+            <h3>Наши сотрудники</h3>
+            <p>Наши работники смогут обеспечить лучшее обслуживание!</p>
+        </div>
+        <div class="employees-columns">
+            <div class="employees-column">
+                <img src="img/5a462844add10_lg.jpg">
+                <h4>Дмитриев Арсен Георгиевич</h4>
+                <p>Должность: Замместитель директора</p>
+                <hr width="30%">
+                <div class="social">
+                    <img src="img/icon.jpg" alt="">
+                    <img src="img/icon.jpg" alt="">
+                    <img src="img/icon.jpg" alt="">
+                </div>
+            </div>
+            <div class="employees-column">
+                <img src="img/thumb_problem_employe.jpg">
+                <h4>Еремин Александр Арсентьевич</h4>
+                <p>Должность: Отдел кадров</p>
+                <hr width="30%">
+                <div class="social">
+                    <img src="img/icon.jpg" alt="">
+                    <img src="img/icon.jpg" alt="">
+                    <img src="img/icon.jpg" alt="">
+                </div>
+            </div>
+            <div class="employees-column">
+                <img src="img/thumb_Yakuba.jpg">
+                <h4>Родионова Александра Руслановна</h4>
+                <p>Должность: Менеджер по продажам</p>
+                <hr width="30%">
+                <div class="social">
+                    <img src="img/icon.jpg" alt="">
+                    <img src="img/icon.jpg" alt="">
+                    <img src="img/icon.jpg" alt="">
+                </div>
+            </div>
+            <div class="employees-column">
+                <img src="img/756321350506289.jpg">
+                <h4>Зубенко Михаил Петрович</h4>
+                <p>Должность: Мафиозник</p>
+                <hr width="30%">
+                <div class="social">
+                    <img src="img/icon.jpg" alt="">
+                    <img src="img/icon.jpg" alt="">
+                    <img src="img/icon.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="NewsSender">
+            <div class="NewsSender-wrap">
+                <h3>Подпишись на рассылку и будь в курсе новостей</h3>
+                <div class="wrap-NewsSender">
+                    <input type="text" placeholder="student-a209@gmail.com">
+                    <button>Подписаться</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Гайды</a></li>
+                <li><img class="logo-footer" src="img/logo.jpg"></li>
+                <li><a href="News.html">Новости</a></li>
+                <li><a href="#">Магазин</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="icons">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+        </div>
+    </footer>
+    <script>
+        $('.nav-toggle').on('click', function(){
+          $('#menu').toggleClass('active');
+        });
+    </script>
+</body>
+</html>

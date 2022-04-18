@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
+    type="text/javascript">
+    </script>
+</head>
+<body>
+    <header>
+        <div class="Left">
+            <div class="logo">
+                <img src="img/logo.jpg">
+                <h1>CheckMate</h1>
+            </div>
+            <div class="nav-toggle"><span></span></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Гайды</a></li>
+                    <li><a href="News.html">Новости</a></li>
+                    <li><a href="employees.html">Сотрудники</a></li>
+                    <li><a href="#">Магазин</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LogReg">
+            <button class="LoginButton">Login</button>
+            <button class="RegisterButton">Register</button>
+        </div>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slider-wrap">
+                <h2>Окунитесь в мир удивительных шахмат</h2>
+                <p>История шахмат насчитывает около полутора тысяч лет. Вероятно, старейшим известным предком шахмат является индийская игра чатуранга, заимствованная персами, которые видоизменили её и назвали шатрандж. После арабского завоевания Персии в VII веке шатрандж распространился в пределах арабского халифата, а от арабов стал известен европейцам. Близкий к современному облик шахматы приобрели в конце XV века, когда ныне существующие ходы получили ферзь и слон, до того — фигуры с ограниченной подвижностью. Игра существенно изменилась, стала более быстрой, преимущество первого хода у белых сделало возможным появление дебютов, в которых белые готовят атаку на ранней стадии партии, и стимулировало развитие дебютной теории.</p>
+                <button>Регистрируйся сейчас</button>
+            </div>
+        </div>
+        <div class="Story">
+            <img src="img/slider2.jpg" alt="">
+            <div class="text-wrap">
+                <h3>История шахмат</h3>
+                <p>История шахмат насчитывает около полутора тысяч лет. Вероятно, старейшим известным предком шахмат является индийская игра чатуранга, заимствованная персами, которые видоизменили её и назвали шатрандж. После арабского завоевания Персии в VII веке шатрандж распространился в пределах арабского халифата, а от арабов стал известен европейцам. Близкий к современному облик шахматы приобрели в конце XV века, когда ныне существующие ходы получили ферзь и слон, до того — фигуры с ограниченной подвижностью. Игра существенно изменилась, стала более быстрой, преимущество первого хода у белых сделало возможным появление дебютов, в которых белые готовят атаку на ранней стадии партии, и стимулировало развитие дебютной теории.</p>
+            </div>
+        </div>
+        <div class="TypesOfCheckMate">
+            <div class="text-wrap wrap1">
+                <h3>Шахматные доски</h3>
+                <p>Чаще всего под шахматной доской подразумевается доска, предназначенная для игры в традиционные шахматы. В различных вариантах неклассических шахмат количество клеток на доске может варьировать, из более радикальных отступлений — возможно изменение формы клеток; неизменными чертами остаются двуцветность и способ нумерования клеток — по горизонтали и вертикали одновременно. В традиционном настольном (не компьютерном и не портативном) форм-факторе шахматная доска чаще всего деревянная, но может быть пластиковой или картонной. Чаще всего она представляет собой коробку, складывающуюся пополам.</p>
+            </div>
+            <img src="img/12.jpg" alt="">
+        </div>
+        <div class="News">
+            <h3>Новости</h3>
+            <div class="news-full">
+                <div class="news-wrap">
+                    <img src="img/wood.png">
+                    <h3>Разное</h3>
+                    <p>Шахматы стали известны в Европе благодаря контактам с арабским миром...</p>
+                    <button>Узнать больше...</button>
+                </div>
+                <div class="news-wrap">
+                    <img src="img/pecus.png">
+                    <h3>Обучение</h3>
+                    <p>Взрослые часто ошибочно считают, что шахматные правила слишком сложны и запутанны, чтобы их смог освоить...</p>
+                    <button>Узнать больше...</button>
+                </div>
+                <div class="news-wrap">
+                    <img src="img/sad.png">
+                    <h3>Турниры</h3>
+                    <p>Региональный этап открытых Всероссийских соревнований по шахматам...</p>
+                    <button>Узнать больше...</button>
+                </div>
+            </div>
+        </div>
+        <div class="NewsSender">
+            <div class="NewsSender-wrap">
+                <h3>Подпишись на рассылку и будь в курсе новостей</h3>
+                <div class="wrap-NewsSender">
+                    <input type="text" placeholder="student-a209@gmail.com">
+                    <button>Подписаться</button>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <h3>Где мы находимся</h3>
+            <p>Наш офис расположен по адресу: г.Пермь, ул. Пионерская, дом 17</p>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af2e88a5d80c9814eb88502a9d835285ce02d9bced6be2d76ced07e60306250df&amp;width=1000&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </script>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Гайды</a></li>
+                <li><img class="logo-footer" src="img/logo.jpg"></li>
+                <li><a href="News.html">Новости</a></li>
+                <li><a href="#">Магазин</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="icons">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+            <img src="img/icon.jpg">
+        </div>
+    </footer>
+    <script>
+        $('.nav-toggle').on('click', function(){
+          $('#menu').toggleClass('active');
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+@media(max-width:1060px){
+
+    .nav-toggle{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .LogReg{
+        display: none;
+    }
+
+}
+@media(max-width:830px){
+    .slider{
+        width: 830px;
+    }
+}
+@media(max-width:560px){
+    body{
+        max-width: 560px;
+    }
+    .slider{
+        width: 560px;
+    }
+    .slider-wrap p{
+        overflow: hidden;
+        max-height: 200px;
+    }
+    .news-full p {
+        overflow: hidden;
+        max-height: 25%;
+    }
+    .NewsSender input{
+        width: 200px;
+    }
+}
