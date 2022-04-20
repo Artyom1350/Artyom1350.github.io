@@ -1,0 +1,9 @@
+ErrorDocument 404 http://localhost/CheckMate/error404.html
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType img/ "access plus 1 year"
+ExpiresDefault "access plus 7 days"
+</ifModule>
+## EXPIRES CACHING ##
